@@ -140,6 +140,18 @@
       <Name>SamplePage</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\iconmonstr-bookmark-1-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\iconmonstr-gear-1-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\iconmonstr-photo-camera-4-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\iconmonstr-star-2-24.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
