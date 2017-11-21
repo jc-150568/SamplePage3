@@ -21,9 +21,9 @@
       <string>UIInterfaceOrientationLandscapeRight</string>
     </array>
     <key>CFBundleDisplayName</key>
-    <string>xamarinformsample00</string>
+    <string>SamplePage</string>
     <key>CFBundleIdentifier</key>
-    <string>jp.jc21.xamarinformsample00</string>
+    <string>jp.jc21.SamplePage</string>
     <key>CFBundleVersion</key>
     <string>1.0</string>
     <key>CFBundleIconFiles</key>
