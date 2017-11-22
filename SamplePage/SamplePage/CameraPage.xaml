@@ -4,9 +4,10 @@
              x:Class="SamplePage.CameraPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Reader Start!"
+            Clicked="ScanButtonClicked"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
