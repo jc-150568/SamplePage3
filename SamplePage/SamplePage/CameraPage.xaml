@@ -7,7 +7,7 @@
             Clicked="ScanButtonClicked"
             HorizontalOptions="Center"
             VerticalOptions="CenterAndExpand" />
-        
+
         <Image Source="SampleISBN.png" />
 
     </ContentPage.Content>
