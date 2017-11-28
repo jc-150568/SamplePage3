@@ -3,8 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SamplePage.CameraPage">
     <ContentPage.Content>
-        <Image Source="SampleISBN.png" 
-               Tapped="ScanButtonClicked"/>
+        <Label Text="a"
+               Clicked="ScanButtonClicked"/>
+        
+        <Image Source="SampleISBN.png" />
 
     </ContentPage.Content>
 </ContentPage>
