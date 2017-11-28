@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SamplePage.CameraPage">
     <ContentPage.Content>
-        <Button Text="Reader Start!"
+        <Button Image="SampleISBN.png"
             Clicked="ScanButtonClicked"
             HorizontalOptions="Center"
             VerticalOptions="CenterAndExpand" />
