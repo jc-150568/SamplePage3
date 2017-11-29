@@ -17,9 +17,17 @@ namespace SamplePage
             InitializeComponent();
         }
 
-        private void On1(object sender, EventArgs e)
+        private void OnToggled(object sender, ToggledEventArgs e)
         {
-            DisplayAlert("おんちぇんじ", "やったー", "くそ");
+            if(sw1.On == true)
+            {
+                DisplayAlert("おんちぇんじ", "やったー", "くそ");
+            }
+            else
+            {
+                DisplayAlert("やっぱり", "VisualStudio", "くたばれ");
+            }
+                    
         }
     }
 }
