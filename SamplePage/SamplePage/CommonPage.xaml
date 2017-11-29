@@ -10,6 +10,7 @@
                     <TableRoot>
                         <TableSection>
                             <SwitchCell Text="本棚表示でアイコン表示"
+                                        OnChanged="OnToggled"
                                         On= "On"
                                         x:Name="sw1"/>
                             <SwitchCell Text="本の連続登録"/>
