@@ -23,7 +23,7 @@ namespace SamplePage
             {
                 DisplayAlert("おんちぇんじ", "やったー", "くそ");
             }
-            else
+            else if(sw1.On == false)
             {
                 DisplayAlert("やっぱり", "VisualStudio", "くたばれ");
             }

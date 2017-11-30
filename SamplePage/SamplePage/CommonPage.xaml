@@ -11,7 +11,7 @@
                         <TableSection>
                             <SwitchCell Text="本棚表示でアイコン表示"
                                         OnChanged="OnToggled"
-                                        On= "On"
+                                        On= "False"
                                         x:Name="sw1"/>
                             <SwitchCell Text="本の連続登録"/>
                         </TableSection>
