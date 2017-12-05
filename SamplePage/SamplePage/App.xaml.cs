@@ -19,6 +19,11 @@ namespace SamplePage
             App.dbPath = dbPath;
             
             InitializeComponent();
+        }
+
+        public App()
+        {
+            InitializeComponent();
 
             MainPage = new NavigationPage(new MainPage());
         }
