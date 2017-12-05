@@ -12,7 +12,7 @@ using ZXing.Net.Mobile.Forms;
 
 namespace SamplePage
 {
-    
+
     public partial class CameraPage : ContentPage
     {
         String scanedData;
@@ -45,7 +45,7 @@ namespace SamplePage
                     await DisplayAlert("スキャン完了", result.Text, "OK");
                 });
 
-                scanedData =(result.Text);
+                scanedData = (result.Text);
             };
         }
 
@@ -63,7 +63,7 @@ namespace SamplePage
 
             //Userテーブルの行データを取得
             var query = UserModel.selectUser(); //中身はSELECT * FROM [User]
-            
+
             foreach (var user in query)
             {
                 //Userテーブルの名前列をLabelに書き出す
@@ -71,6 +71,7 @@ namespace SamplePage
 
             }
 
-           
+
         }
+    }
 }
