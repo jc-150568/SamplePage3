@@ -51,27 +51,27 @@ namespace SamplePage
 
         public void InsertClicked(object sender, EventArgs e)
         {
-
-            var InsertName = scanedData;
-            //Userテーブルに適当なデータを追加する
-            UserModel.insertUser(InsertName);
-
+            /*
+                        var InsertName = scanedData;
+                        //Userテーブルに適当なデータを追加する
+                        UserModel.insertUser(InsertName);*
+            */
         }
 
         void SelectClicked(object sender, EventArgs e)
         {
+            /*
+                        //Userテーブルの行データを取得
+                        var query = UserModel.selectUser(); //中身はSELECT * FROM [User]
 
-            //Userテーブルの行データを取得
-            var query = UserModel.selectUser(); //中身はSELECT * FROM [User]
+                        foreach (var user in query)
+                        {
+                            //Userテーブルの名前列をLabelに書き出す
+                            zx.Text = user.Name;
 
-            foreach (var user in query)
-            {
-                //Userテーブルの名前列をLabelに書き出す
-                zx.Text = user.Name;
-
-            }
+                        }*/
 
 
+                    }
         }
-    }
 }
