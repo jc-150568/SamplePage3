@@ -63,6 +63,7 @@
     <Compile Include="SeekPage.xaml.cs">
       <DependentUpon>SeekPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainPage.xaml">
