@@ -12,14 +12,12 @@ using ZXing.Net.Mobile.Forms;
 
 namespace SamplePage
 {
-
+    
     public partial class CameraPage : ContentPage
     {
-        String scanedData;
         public CameraPage()
         {
             InitializeComponent();
-            this.BindingContext = scanedData;
         }
 
         async void ScanButtonClicked(object sender, EventArgs s)
@@ -45,33 +43,8 @@ namespace SamplePage
                     await DisplayAlert("スキャン完了", result.Text, "OK");
                 });
 
-                scanedData = (result.Text);
+                //scanedData.Add(result.Text);
             };
         }
-
-        public void InsertClicked(object sender, EventArgs e)
-        {
-            /*
-                        var InsertName = scanedData;
-                        //Userテーブルに適当なデータを追加する
-                        UserModel.insertUser(InsertName);*
-            */
-        }
-
-        void SelectClicked(object sender, EventArgs e)
-        {
-            /*
-                        //Userテーブルの行データを取得
-                        var query = UserModel.selectUser(); //中身はSELECT * FROM [User]
-
-                        foreach (var user in query)
-                        {
-                            //Userテーブルの名前列をLabelに書き出す
-                            zx.Text = user.Name;
-
-                        }*/
-
-
-                    }
-        }
+    }
 }
