@@ -49,7 +49,7 @@ namespace SamplePage
 
                // scanedData.Add(result.Text);
                // sd2 = result.Text;
-                LOL.Text = "???";
+               // LOL.Text = "???";
             };
             
         }
