@@ -7,9 +7,5 @@
             Clicked="ScanButtonClicked"
             HorizontalOptions="Center"
             VerticalOptions="CenterAndExpand" />
-        <Label Text="TEST!"
-               HorizontalOptions="CenterAndExpand"
-               VerticalOptions="CenterAndExpand"
-               x:Name="LOL"/>
     </ContentPage.Content>
 </ContentPage>
