@@ -15,7 +15,7 @@ namespace SamplePage
     
     public partial class CameraPage : ContentPage
     {
-        String sd2;
+        //String sd2;
        // ObservableCollection<string> scanedData;
         public CameraPage()
         {
@@ -48,8 +48,8 @@ namespace SamplePage
                 });
 
                // scanedData.Add(result.Text);
-                sd2 = result.Text;
-                LOL.Text = sd2;
+               // sd2 = result.Text;
+                LOL.Text = "???";
             };
             
         }
