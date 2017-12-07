@@ -4,13 +4,13 @@
              x:Class="SamplePage.CameraPage">
     <ContentPage.Content>
         <StackLayout>
-        <Button Image="SampleISBN.png"
+            <Button Image="SampleISBN.png"
             Clicked="ScanButtonClicked"
             HorizontalOptions="Center"
             VerticalOptions="CenterAndExpand" />
-       
-        
-        <Label Text="TEST!"
+
+
+            <Label Text="TEST!"
                HorizontalOptions="CenterAndExpand"
                VerticalOptions="CenterAndExpand"
                x:Name="LOL"/>
