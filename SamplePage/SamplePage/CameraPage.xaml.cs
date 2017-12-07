@@ -44,7 +44,7 @@ namespace SamplePage
                 Device.BeginInvokeOnMainThread(async () =>
                 {
                     await Navigation.PopAsync();
-                    await DisplayAlert("スキャン完了", result.Text, "OK");
+                   // await DisplayAlert("スキャン完了", result.Text, "OK");
                 });
 
                // scanedData.Add(result.Text);
