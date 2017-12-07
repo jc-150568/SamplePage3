@@ -17,7 +17,7 @@ namespace SamplePage
             //AppのdbPathに引数のパスを設定します
             App.dbPath = dbPath;
             InitializeComponent();
-
+            MainPage = new NavigationPage(new MainPage());
 
         }
         public App()
