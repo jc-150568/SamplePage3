@@ -7,6 +7,8 @@
             Clicked="ScanButtonClicked"
             HorizontalOptions="Center"
             VerticalOptions="CenterAndExpand" />
+       
+        
         <Label Text="TEST!"
                HorizontalOptions="CenterAndExpand"
                VerticalOptions="CenterAndExpand"
