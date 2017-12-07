@@ -9,6 +9,17 @@ namespace SamplePage
 {
     public partial class App : Application
     {
+        public static string dbPath;
+        
+        public App(string dbPath)
+        {
+            
+            //AppのdbPathに引数のパスを設定します
+            App.dbPath = dbPath;
+            InitializeComponent();
+
+
+        }
         public App()
         {
             InitializeComponent();
